@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'ru' Physical Memory: 32668 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+B:\UnityHub\UnityEditor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+B:/MyProjects/Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49861
+Successfully changed project path to: B:/MyProjects/Game
+B:/MyProjects/Game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9548] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2450459277 [EditorId] 2450459277 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9548] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 2450459277 [EditorId] 2450459277 [Version] 1048832 [Id] WindowsEditor(7,HOME-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 15.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path B:/UnityHub/UnityEditor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path B:/MyProjects/Game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'B:/UnityHub/UnityEditor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'B:/UnityHub/UnityEditor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'B:/UnityHub/UnityEditor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: B:/UnityHub/UnityEditor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004406 seconds.
+- Loaded All Assemblies, in  0.500 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 952ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (206ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (172ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (452ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (361ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.355 seconds
+Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.552 seconds
+Domain Reload Profiling: 2907ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (918ms)
+		LoadAssemblies (531ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (547ms)
+			TypeCache.Refresh (465ms)
+				TypeCache.ScanAssembly (390ms)
+			ScanForSourceGeneratedMonoScriptInfo (61ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1187ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (782ms)
+			ProcessInitializeOnLoadMethodAttributes (160ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6007 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 122 unused Assets / (2.1 MB). Loaded Objects now: 6448.
+Memory consumption went from 243.1 MB to 241.0 MB.
+Total: 6.354300 ms (FindLiveObjects: 0.727600 ms CreateObjectMapping: 0.369500 ms MarkObjects: 4.326600 ms  DeleteObjects: 0.929700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 39606d92bcf39ac9cd6fca1116091104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 387.831820 seconds.
+  path: Assets/Sprites/ForestTileMap.png
+  artifactKey: Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ForestTileMap.png using Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d0b5f3b10cc70a622345600b952b8') in 0.169757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.746513 seconds.
+  path: Assets/Sprites/ForestTileMap.png
+  artifactKey: Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ForestTileMap.png using Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad42a11424aa5879c7ea7113a0323767') in 0.020984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.618835 seconds.
+  path: Assets/Sprites/ForestTileMap.png
+  artifactKey: Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ForestTileMap.png using Guid(0e783d32ec1ad8d448be8743e2af5412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01ab6430e0d09419f4c7ff88a1d22e0') in 0.205347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 8.910288 seconds.
+  path: Assets/Pallete/Tiles
+  artifactKey: Guid(4a771221508fbcd4f8571c4e9d60ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles using Guid(4a771221508fbcd4f8571c4e9d60ce30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df25613512494b6e862fde8c9b496d2f') in 0.000846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030133 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_0.asset
+  artifactKey: Guid(dd854756a91bf564295e8901802ea324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_0.asset using Guid(dd854756a91bf564295e8901802ea324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85478387d20501b22cb3f0ba92d3909d') in 0.009939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004191 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_3.asset
+  artifactKey: Guid(79fc24f716072494bb2a681044eda941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_3.asset using Guid(79fc24f716072494bb2a681044eda941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ae9d4fe561da32ad33181acd772434') in 0.003915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_19.asset
+  artifactKey: Guid(786cfe0e34e3e1043842bbb82220e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_19.asset using Guid(786cfe0e34e3e1043842bbb82220e1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4764825c3e423ac55ddf8cd9cf2244') in 0.004832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_35.asset
+  artifactKey: Guid(7317413e9ed865a47ab2dd99711436ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_35.asset using Guid(7317413e9ed865a47ab2dd99711436ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88879d2efdf2590d94e3b4bc473bb74e') in 0.004378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_26.asset
+  artifactKey: Guid(a7c47c82241ac2d4a940c509ebb99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_26.asset using Guid(a7c47c82241ac2d4a940c509ebb99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceea1579adff1fc0dcf9d55874e6a94') in 0.004289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_10.asset
+  artifactKey: Guid(f51da1ab41e18cf47add97c88849a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_10.asset using Guid(f51da1ab41e18cf47add97c88849a565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31eee33708b34a6681023a53f15a4dd3') in 0.003504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_31.asset
+  artifactKey: Guid(4363e9e2558ec264b9ac49126fc41987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_31.asset using Guid(4363e9e2558ec264b9ac49126fc41987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c4e57daf7f83ba937a56ce5548d128') in 0.004468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_46.asset
+  artifactKey: Guid(10528bcd0df8e9c4fbd7c089687b2cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_46.asset using Guid(10528bcd0df8e9c4fbd7c089687b2cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1c662cc9ea9ea3822cc5283339081') in 0.007155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_16.asset
+  artifactKey: Guid(21e60d34a23435e4985d76be6f6582e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_16.asset using Guid(21e60d34a23435e4985d76be6f6582e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc3ca0c7e5de2c3f064d3ca412838e83') in 0.003185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_37.asset
+  artifactKey: Guid(0e08c113e4b039d458968ddc5cf69a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_37.asset using Guid(0e08c113e4b039d458968ddc5cf69a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bb08a7ea0cfba89ff4a630596af158') in 0.004333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_33.asset
+  artifactKey: Guid(9997cc21d97904a438505276ee9f6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_33.asset using Guid(9997cc21d97904a438505276ee9f6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23fa0eb12af4ac5f361484e4ac85fde') in 0.003432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_27.asset
+  artifactKey: Guid(18262881251d0c84ea90a895c50519b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_27.asset using Guid(18262881251d0c84ea90a895c50519b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ded4e70597a714333048d20fd767775') in 0.002979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_25.asset
+  artifactKey: Guid(9106e54f9efb59a4eb354ed9317b49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_25.asset using Guid(9106e54f9efb59a4eb354ed9317b49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceba9147a81e3c49d6252b281ec1022a') in 0.003043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_17.asset
+  artifactKey: Guid(9262faa07266725498ee60eaf3418a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_17.asset using Guid(9262faa07266725498ee60eaf3418a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eda2647f3b9c5a735b423bbb561ef34') in 0.003546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_15.asset
+  artifactKey: Guid(b08e69862da36404ba4cea0903025ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_15.asset using Guid(b08e69862da36404ba4cea0903025ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1967494931bb5c8c44d897827d078bd0') in 0.003135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_4.asset
+  artifactKey: Guid(5f9945e13eab88a468f4b6a922b89ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_4.asset using Guid(5f9945e13eab88a468f4b6a922b89ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7d798b833604d2870fbe8c43840631') in 0.002842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_13.asset
+  artifactKey: Guid(b22879ee3d8c0ff47846caae6d89f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_13.asset using Guid(b22879ee3d8c0ff47846caae6d89f1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4352a5fd9c61f2a978345d304f6d8358') in 0.003061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_2.asset
+  artifactKey: Guid(7d153b3e7beba204f96c2794700d807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_2.asset using Guid(7d153b3e7beba204f96c2794700d807a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090b0af258fa5d4ea0e3a4a927af4532') in 0.003037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_32.asset
+  artifactKey: Guid(f02400e8a63e6e7409cf1b2651d350d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_32.asset using Guid(f02400e8a63e6e7409cf1b2651d350d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20affbf33e256202206882f9e802321a') in 0.004489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pallete/Tiles/ForestTileMap_28.asset
+  artifactKey: Guid(4ba2950a35a1ddf4c8bdc2e08ebeb389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pallete/Tiles/ForestTileMap_28.asset using Guid(4ba2950a35a1ddf4c8bdc2e08ebeb389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2b0289ea2260e03dad153ab9c5bcdd') in 0.002908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
